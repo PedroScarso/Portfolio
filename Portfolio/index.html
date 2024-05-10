@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é meu primeiro site!">
+    <meta name="keywords" content="Pedro Scarso, Portfolio">
+    <meta name="author" content="Pedro Scarso">
+    <title>Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>        
+
+    <!-- home section design -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Oi, eu sou</h3>
+        <h1>Pedro Scarso</h1>
+        <h3>E eu sou <span class="multiple-text1"></span></h3>        
+        <p>Atualmente estou empregado na empresa Alcon Engenharia de sistemas, na função de assistente de infraestrutura.</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/scarso_dev/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.linkedin.com/in/pedro-scarso/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/PedroScarso/" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+        <img src="img/pedro.png" alt="" class="">
+    </div>
+</section>
+
+<!--about section design-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="img/pedro.png" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">Sobre <span>mim</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>#</p>
+        <a href="#" class="btn">Ver mais</a>
+    </div>
+</section>
+
+<!--Services section design-->
+<section class="services" id="services">
+    <h2 class="heading">Outros <span>Serviços</span></h2> 
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-link-alt'></i>
+            <h3>Web Designer</h3>
+            <p>#</p>
+            <a href="#" class="btn">Ver mais</a>        
+    </div>
+
+    <div class="services-box">
+        <i class='bx bxs-paint'></i>
+        <h3>Assistente de infraestrutura</h3>
+        <p>#</p>
+        <a href="#" class="btn">Ver mais</a>        
+</div>
+
+<div class="services-box">
+    <i class='bx bx-bar-chart'></i>
+    <h3>Desenvolvedor back-end</h3>
+    <p>#</p>
+    <a href="#" class="btn">Ver mais</a>        
+</div>
+
+</section>
+
+<!-- portfolio section design -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Últimos <span>Projeto</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="img/portfolio1.jpg" alt="#">
+            <div class="portfolio-layer">
+                <h4>#</h4>
+                <p>Lorem ipsum dolor sit.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/portfolio2.jpg" alt="#">
+            <div class="portfolio-layer">
+                <h4>#</h4>
+                <p>Lorem ipsum dolor sit.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/portfolio3.jpg" alt="#">
+            <div class="portfolio-layer">
+                <h4>#</h4>
+                <p>Lorem ipsum dolor sit.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/portfolio4.jpg" alt="#">
+            <div class="portfolio-layer">
+                <h4>#</h4>
+                <p>Lorem ipsum dolor sit.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/portfolio5.jpg" alt="#">
+            <div class="portfolio-layer">
+                <h4>#</h4>
+                <p>Lorem ipsum dolor sit.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/portfolio6.jpg" alt="#">
+            <div class="portfolio-layer">
+                <h4>#</h4>
+                <p>Lorem ipsum dolor sit.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contact section design-->
+<section class="contact" id="contact">
+    <h2 class="heading">Fale <span>comigo!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Nome completo">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Número de celular">
+            <input type="text" placeholder="Assunto">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Escreva a sua mensagem..."></textarea>
+        <input type="submit" value="Enviar" class="btn">
+    </form>
+</section>
+
+<!--footer design-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+<!--Scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--typed js-->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="JS/script.js"></script>
+</body>
+</html> 
