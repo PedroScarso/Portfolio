@@ -2,4 +2,4 @@
 
 # # Site portfolio
 
-HTML | CSS | TS
+HTML | CSS | JS
